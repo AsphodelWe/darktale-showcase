@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Watch five gameplay clips from Below the Dawn (DarkTale), a solo-developed dark pixel-art roguelike made in Unity.">
+  <meta name="theme-color" content="#111410">
+  <title>Below the Dawn | DarkTale gameplay showcase</title>
+  <link rel="icon" href="ghost.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <script src="showcase.js" defer></script>
+</head>
+<body>
+  <header class="site-header wrap">
+    <a class="brand" href="#top">
+      <img src="ghost.png" width="30" height="30" alt="">
+      DarkTale
+    </a>
+    <a class="nav-link" href="#footage">Gameplay</a>
+  </header>
+  <main id="top">
+    <section class="hero wrap" aria-labelledby="title">
+      <div class="hero-copy">
+        <p class="eyebrow">Solo game project · Unity / C#</p>
+        <h1 id="title">Below<br>the Dawn<span>.</span></h1>
+        <p class="summary">A dark pixel-art roguelike about a little ghost climbing out of a cavern. Survive enemy waves, build up your gear and read the patterns of the bosses in your way.</p>
+        <a class="button" href="#footage">Explore the footage</a>
+      </div>
+      <figure class="featured">
+        <a class="still video-link" id="watch-wave" href="wave.mp4" data-title="Wave combat" aria-label="Play Wave combat, 1 minute 15 seconds">
+          <img src="wave.jpg" width="1440" height="810" alt="A white ghost using fireballs and a bow in a cavern arena">
+          <span class="play" aria-hidden="true"></span>
+        </a>
+        <figcaption><span>Wave combat</span><span class="duration">1:15</span></figcaption>
+      </figure>
+    </section>
+
+    <section class="footage wrap" id="footage" aria-labelledby="footage-title">
+      <div class="section-heading">
+        <h2 id="footage-title">Inside the demo</h2>
+        <p>Boss encounters, progression and the merchant.</p>
+      </div>
+      <div class="clips">
+        <article class="clip">
+          <a class="still video-link" id="watch-berserk" href="berserk.mp4" data-title="Berserker" aria-label="Play Berserker, 2 minutes 54 seconds">
+            <img src="berserk.jpg" width="1280" height="720" loading="lazy" alt="Illustrated cover showing the Berserker swinging his red cleaver above a grid of glowing cuts">
+            <span class="play" aria-hidden="true"></span>
+          </a>
+          <div class="clip-heading"><h3>Berserker</h3><span class="duration">2:54</span></div>
+          <p>Read the cuts, move through safe zones and time your counterattack.</p>
+        </article>
+        <article class="clip">
+          <a class="still video-link" id="watch-skeleton" href="skeleton.mp4" data-title="Skeleton" aria-label="Play Skeleton, 2 minutes 54 seconds">
+            <img src="skeleton.jpg" width="1280" height="720" loading="lazy" alt="Illustrated cover of the Skeleton boss firing an orange beam">
+            <span class="play" aria-hidden="true"></span>
+          </a>
+          <div class="clip-heading"><h3>Skeleton</h3><span class="duration">2:54</span></div>
+          <p>Keep moving as the boss sweeps the arena with a laser and summons reinforcements.</p>
+        </article>
+        <article class="clip">
+          <a class="still video-link" id="watch-interface" href="interface.mp4" data-title="Gear & progression" aria-label="Play Gear and progression, 57 seconds">
+            <img src="interface.jpg" width="1280" height="720" loading="lazy" alt="Illustrated cover of equipment slots and branching weapon upgrades">
+            <span class="play" aria-hidden="true"></span>
+          </a>
+          <div class="clip-heading"><h3>Gear &amp; progression</h3><span class="duration">0:57</span></div>
+          <p>Unlock slots with cards and see how equipment changes your build.</p>
+        </article>
+        <article class="clip">
+          <a class="still video-link" id="watch-merchant" href="merchant.mp4" data-title="Moss the merchant" aria-label="Play Moss the merchant, 28 seconds">
+            <img src="merchant.jpg" width="1280" height="720" loading="lazy" alt="Illustrated cover of Moss at his lantern-lit stall">
+            <span class="play" aria-hidden="true"></span>
+          </a>
+          <div class="clip-heading"><h3>Moss the merchant</h3><span class="duration">0:28</span></div>
+          <p>Visit the mushroom merchant’s stall to browse gear and abilities between fights.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer wrap">
+    <span>Below the Dawn · In development</span>
+    <a href="https://github.com/AsphodelWe">AsphodelWe on GitHub</a>
+  </footer>
+
+  <dialog class="player" aria-labelledby="video-title">
+    <div class="player-bar">
+      <h2 id="video-title"></h2>
+      <form method="dialog"><button type="submit" aria-label="Close video" autofocus>Close</button></form>
+    </div>
+    <video controls playsinline preload="none"></video>
+    <p class="video-error" hidden>Couldn’t play the video in this window. <a>Open the MP4</a></p>
+  </dialog>
+</body>
+</html>
