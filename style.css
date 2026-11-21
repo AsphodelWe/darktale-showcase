@@ -149,6 +149,7 @@ h1 span { color: var(--gold); }
 .section-heading h2 { font-size: clamp(2rem, 4.5vw, 3.1rem); font-weight: 500; letter-spacing: -.035em; }
 .section-heading p, .clip p, .site-footer { color: var(--muted); }
 .clips { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem 1.75rem; }
+.combat-clips { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .clip .still { border: 1px solid var(--line); }
 .clip-heading { margin-top: .75rem; }
 .clip h3 { font-size: 1.6rem; font-weight: 500; }

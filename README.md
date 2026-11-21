@@ -4,26 +4,32 @@
 
 A dark pixel-art roguelike about a little ghost climbing out of a cavern. Survive enemy waves, unlock gear slots and read a boss’s attack pattern before striking back.
 
-## Gameplay
+## Gameplay trailer · 0:58
 
-### Wave combat · 1:15
+[![Below the Dawn gameplay trailer featuring the ghost and two bosses](trailer.jpg)][trailer]
 
-[![A ghost with a bow and fireballs faces a wave of enemies in a cavern](wave.jpg)][wave]
+[Watch the gameplay trailer][trailer]
 
-[Watch Wave combat][wave] · Keep moving through the cavern arena while using a bow and active abilities.
+## Combat modes
 
-| Boss encounters | Progression and trade |
+| Berserker duel | Skeleton battle | Wave survival |
+| --- | --- | --- |
+| [![The Berserker and his glowing arena cuts](berserk.jpg)][berserk] | [![The Skeleton boss firing a laser](skeleton.jpg)][skeleton] | [![The ghost using a bow and fireballs in a cavern](wave.jpg)][wave] |
+| [Watch · 2:54][berserk]<br>Read the cuts, find a safe zone and time a counterattack. | [Watch · 2:54][skeleton]<br>Dodge a sweeping laser while reinforcements crowd the arena. | [Watch · 1:15][wave]<br>Survive waves of enemies with a bow and active abilities. |
+
+## Progression and trade
+
+| Gear & progression | Moss the merchant |
 | --- | --- |
-| [![The Berserker and his glowing arena cuts](berserk.jpg)][berserk] | [![Equipment slots and weapon upgrades](interface.jpg)][interface] |
-| **[Berserker][berserk]** · 2:54<br>Read the cuts, find a safe zone and time a counterattack. | **[Gear & progression][interface]** · 0:57<br>Unlock slots with cards and equip gear to change your build. |
-| [![The Skeleton boss firing a laser](skeleton.jpg)][skeleton] | [![Moss the mushroom merchant and his lantern-lit stall](merchant.jpg)][merchant] |
-| **[Skeleton][skeleton]** · 2:54<br>Dodge the sweeping laser while reinforcements crowd the arena. | **[Moss the merchant][merchant]** · 0:28<br>Browse equipment and abilities between fights. |
+| [![Equipment slots and weapon upgrades](interface.jpg)][interface] | [![Moss the mushroom merchant and his lantern-lit stall](merchant.jpg)][merchant] |
+| [Watch · 0:57][interface]<br>Unlock slots with cards and equip gear to change your build. | [Watch · 0:28][merchant]<br>Browse equipment and abilities between fights. |
 
 [Open the full video gallery][gallery]
 
-[wave]: https://asphodelwe.github.io/darktale-showcase/#watch-wave
+[trailer]: https://asphodelwe.github.io/darktale-showcase/#watch-trailer
 [berserk]: https://asphodelwe.github.io/darktale-showcase/#watch-berserk
-[interface]: https://asphodelwe.github.io/darktale-showcase/#watch-interface
 [skeleton]: https://asphodelwe.github.io/darktale-showcase/#watch-skeleton
+[wave]: https://asphodelwe.github.io/darktale-showcase/#watch-wave
+[interface]: https://asphodelwe.github.io/darktale-showcase/#watch-interface
 [merchant]: https://asphodelwe.github.io/darktale-showcase/#watch-merchant
 [gallery]: https://asphodelwe.github.io/darktale-showcase/
